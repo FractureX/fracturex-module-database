@@ -5,6 +5,7 @@ setup(
     version="1.0.0",
     packages=find_packages(),
     install_requires=[
+        "pydantic==2.8.2",
         "fastapi==0.111.1",
         "psycopg2==2.9.9",
         "pymongo==4.8.0",
